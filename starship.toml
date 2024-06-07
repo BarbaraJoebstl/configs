@@ -1,0 +1,19 @@
+[directory]
+truncation_length = 8
+truncate_to_repo = false
+
+[aws]
+disabled = true
+
+[lua]
+disabled = true
+
+[azure]
+disabled = false
+format = 'on [$symbol($subscription)]($style) '
+symbol = '󰠅 '
+style = 'blue bold'
+
+[azure.subscription_aliases]
+GC300_Sub_eXtollo-platform_Prod = 'BUMS_PROD'
+GC315_Sub_eXtollo-BU-MS = 'BUMS'
